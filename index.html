@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Slot Machine</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/slot-machine.css" rel="stylesheet" type="text/css">
+</head>
+
+<script src="scripts/jquery-2.2.1.min.js"></script>
+<script src="scripts/slot-machine.js"></script>
+
+<body>
+<div class="machine-container">
+    <div class="winner-text">WINNER</div>
+    <div class="prize-container">
+        <span class="prize-message">You just won a cup of COFFEE!</span>
+        <span class="prize-message">You just won a cup of TEA!</span>
+        <span class="prize-message">You just won an ESPRESSO!</span>
+    </div>
+    <div class="reel-container">
+        <div id="reel1" class="reel"></div>
+        <div id="reel2" class="reel"></div>
+        <div id="reel3" class="reel"></div>
+    </div>
+    <hr>
+    <button id="btnSpin" type="button">SPIN!</button>
+
+</div>
+</body>
+</html>
