@@ -1,2 +1,4 @@
 # SlotMachine
-Simple Slot Machine webapp using JavaScript and jQuery
+Simple Slot Machine web application using JavaScript ES6 and jQuery.
+
+Working on Chrome. Known compatibility issues with Firefox.
